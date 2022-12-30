@@ -52,9 +52,6 @@ function gotPoses(results)
 }
 
 
-
-
-
 function draw()
 {
     image(video, 0, 0, 600, 500);
@@ -96,6 +93,23 @@ if(song == false){
     document.getElementById("song").innerHTML = "song2";
     }
 }
+
+
+function stop()
+{
+
+song1.stop();
+	
+}
+
+function stop2()
+{
+
+song2.stop();
+	
+}
+
+
 
 
 
